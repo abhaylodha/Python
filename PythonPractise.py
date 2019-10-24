@@ -1,3 +1,7 @@
+########################################################################
+# Program to iterate over a list and finding distance between first 
+# and last same element.
+########################################################################
 
 inp=input()
 #[1,2,3,4,1]
