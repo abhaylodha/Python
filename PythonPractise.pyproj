@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e0d31b0e-ed01-4e5a-ae73-95744022807d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>map_function.py</StartupFile>
+    <StartupFile>num_py.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,6 +28,15 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="map_function.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Lambda.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="List_Comprehension.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="num_py.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="OOP.py">

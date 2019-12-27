@@ -1,4 +1,3 @@
-
 store1_prices = [10.0, 23.0, 75.0, 45.0, 34.0]
 store2_prices = [14.0, 22.0, 72.0, 48.0, 38.0]
 
@@ -24,11 +23,10 @@ print(people)
 
 titles_and_last_name = map(split_title_and_name, people)
 
-print(titles_and_last_name)  #Prints only references
+print(titles_and_last_name)  #Prints only references to iterable
 
 print(list(titles_and_last_name)) #Iterates and evaluates map function to create a list object.
 
 print("Using for loop")
-for p in titles_and_last_name :   #Iterable has nothing left. So print nothing here.
+for p in titles_and_last_name :   #Iterable has nothing left. So prints nothing here.
     print(p)
-
