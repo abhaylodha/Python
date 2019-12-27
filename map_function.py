@@ -17,7 +17,7 @@ people = ['Dr. Christopher Brooks', 'Dr. Kevyn Collins-Thompson', 'Dr. VG Vinod 
 
 def split_title_and_name(person):
     values = person.split(" ")
-    return values[0] + " " + values[2]
+    return values[0] + " " + values[-1]
 
 print("List of people")
 print(people)
