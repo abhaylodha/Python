@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e0d31b0e-ed01-4e5a-ae73-95744022807d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>csvReader.py</StartupFile>
+    <StartupFile>map_function.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="csvReader.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DateAndTime.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="map_function.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OOP.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Tuples.py">
