@@ -6,7 +6,7 @@
 inp=input()
 #[1,2,3,4,1]
 
-def getPosition(lst, item) :
+def getPosition(lst, item):
   for index in range(len(lst)) :
     if (lst[index] == item):
       return index
