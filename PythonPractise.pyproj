@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e0d31b0e-ed01-4e5a-ae73-95744022807d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>pandas_dataframes_3.py</StartupFile>
+    <StartupFile>16. pandas_dataframes_3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,49 +21,49 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="csvReader.py">
+    <Compile Include="03. csvReader.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DateAndTime.py">
+    <Compile Include="04. DateAndTime.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="map_function.py">
+    <Compile Include="06. map_function.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Lambda.py">
+    <Compile Include="07. Lambda.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="List_Comprehension.py">
+    <Compile Include="08. List_Comprehension.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="pandas_dataframes_3.py">
+    <Compile Include="16. pandas_dataframes_3.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="pandas_dataframes_2.py">
+    <Compile Include="15. pandas_dataframes_2.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="pandas_dataframes_1.py">
+    <Compile Include="14. pandas_dataframes_1.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="pandas_3.py">
+    <Compile Include="13. pandas_3.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="pandas_2.py">
+    <Compile Include="11. pandas_2.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="pandas_1.py">
+    <Compile Include="10. pandas_1.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="num_py.py">
+    <Compile Include="09. num_py.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="OOP.py">
+    <Compile Include="05. OOP.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Tuples.py">
+    <Compile Include="02. Tuples.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="PythonPractise.py" />
+    <Compile Include="01. PythonPractise.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="mpg.csv" />
