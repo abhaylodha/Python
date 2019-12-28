@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e0d31b0e-ed01-4e5a-ae73-95744022807d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>pandas_dataframe_2.py</StartupFile>
+    <StartupFile>pandas_dataframes_3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -36,7 +36,10 @@
     <Compile Include="List_Comprehension.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="pandas_dataframe_2.py">
+    <Compile Include="pandas_dataframes_3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pandas_dataframes_2.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="pandas_dataframes_1.py">
@@ -64,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="mpg.csv" />
+    <Content Include="olympics.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
