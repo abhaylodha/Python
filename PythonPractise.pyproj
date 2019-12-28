@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e0d31b0e-ed01-4e5a-ae73-95744022807d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>pandas_2.py</StartupFile>
+    <StartupFile>pandas_dataframe_2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -34,6 +34,15 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="List_Comprehension.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pandas_dataframe_2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pandas_dataframes_1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pandas_3.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="pandas_2.py">
