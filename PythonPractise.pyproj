@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e0d31b0e-ed01-4e5a-ae73-95744022807d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>19. pandas_dataframes_6.py</StartupFile>
+    <StartupFile>20.pandas_dataframes_7.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -69,6 +69,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="19. pandas_dataframes_6.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="20.pandas_dataframes_7.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
