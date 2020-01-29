@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e0d31b0e-ed01-4e5a-ae73-95744022807d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>20.pandas_dataframes_7.py</StartupFile>
+    <StartupFile>26.pandas_dataframes_13.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -74,11 +74,30 @@
     <Compile Include="20.pandas_dataframes_7.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="21.pandas_dataframes_8.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="22.pandas_dataframes_9.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="23.pandas_dataframes_10.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="24.pandas_dataframes_11.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="25.pandas_dataframes_12.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="26.pandas_dataframes_13.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="mpg.csv" />
     <Content Include="olympics.csv" />
     <Content Include="census.csv" />
+    <Content Include="log.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

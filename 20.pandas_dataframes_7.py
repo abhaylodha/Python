@@ -23,7 +23,10 @@ df = df.set_index(['Location','Name'])
 print(df)
 
 
-df.loc[('Store 2', 'Kevyn'), :] = pd.Series ({'Item Purchased' : 'Kitty Food',
-                                'Cost' : 3.00})
+#df.loc[('Store 2', 'Kevyn'), :] = pd.Series ({'Item Purchased' : 'Kitty Food',
+#                                'Cost' : 3.00})
+#OR
+df = df.append(pd.Series ({'Item Purchased' : 'Kitty Food',
+                                'Cost' : 3.00}, name=('Store 2', 'Kevyn')))
 
 print(df)
